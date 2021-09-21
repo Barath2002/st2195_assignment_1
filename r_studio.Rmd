@@ -1,0 +1,24 @@
+---
+title: "r_studio"
+author: "Barath"
+date: "21/09/2021"
+output: html_document
+---
+# MY SECOND MARKDOWN
+
+## Writing a program to print from 1 to 10 using for loop
+ 
+ 
+ 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+for(a in 1:10)
+{
+  print(a)
+}
+```
+
+
